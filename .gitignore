@@ -89,3 +89,6 @@ typings/
 
 # Quasar
 .quasar/
+
+# VS Code
+.vscode/

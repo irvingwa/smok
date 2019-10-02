@@ -11,9 +11,7 @@
           aria-label="Menu"
         />
 
-        <q-toolbar-title>
-          Quasar App
-        </q-toolbar-title>
+        <q-toolbar-title>Quasar App</q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
@@ -36,7 +34,12 @@
             <q-item-label caption>quasar.dev</q-item-label>
           </q-item-section>
         </q-item>
-        <q-item clickable tag="a" target="_blank" href="https://github.quasar.dev">
+        <q-item
+          clickable
+          tag="a"
+          target="_blank"
+          href="https://github.quasar.dev"
+        >
           <q-item-section avatar>
             <q-icon name="code" />
           </q-item-section>
@@ -45,7 +48,12 @@
             <q-item-label caption>github.com/quasarframework</q-item-label>
           </q-item-section>
         </q-item>
-        <q-item clickable tag="a" target="_blank" href="https://chat.quasar.dev">
+        <q-item
+          clickable
+          tag="a"
+          target="_blank"
+          href="https://chat.quasar.dev"
+        >
           <q-item-section avatar>
             <q-icon name="chat" />
           </q-item-section>
@@ -54,7 +62,12 @@
             <q-item-label caption>chat.quasar.dev</q-item-label>
           </q-item-section>
         </q-item>
-        <q-item clickable tag="a" target="_blank" href="https://forum.quasar.dev">
+        <q-item
+          clickable
+          tag="a"
+          target="_blank"
+          href="https://forum.quasar.dev"
+        >
           <q-item-section avatar>
             <q-icon name="record_voice_over" />
           </q-item-section>
@@ -63,7 +76,12 @@
             <q-item-label caption>forum.quasar.dev</q-item-label>
           </q-item-section>
         </q-item>
-        <q-item clickable tag="a" target="_blank" href="https://twitter.quasar.dev">
+        <q-item
+          clickable
+          tag="a"
+          target="_blank"
+          href="https://twitter.quasar.dev"
+        >
           <q-item-section avatar>
             <q-icon name="rss_feed" />
           </q-item-section>
@@ -72,7 +90,12 @@
             <q-item-label caption>@quasarframework</q-item-label>
           </q-item-section>
         </q-item>
-        <q-item clickable tag="a" target="_blank" href="https://facebook.quasar.dev">
+        <q-item
+          clickable
+          tag="a"
+          target="_blank"
+          href="https://facebook.quasar.dev"
+        >
           <q-item-section avatar>
             <q-icon name="public" />
           </q-item-section>
@@ -92,12 +115,12 @@
 
 <script>
 export default {
-  name: 'MyLayout',
+  name: "MyLayout",
 
-  data () {
+  data() {
     return {
       leftDrawerOpen: false
-    }
+    };
   }
-}
+};
 </script>
